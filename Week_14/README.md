@@ -12,10 +12,10 @@
   - [x] 4）定义Consumer，支持Poll消息
 
 ### 第二个版本：自定义 Queue
-- [ ] 2、去掉内存Queue，设计自定义Queue，实现消息确认和消费offset
-  - [ ] 1）自定义内存Message数组模拟Queue。
-  - [ ] 2）使用指针记录当前消息写入位置。
-  - [ ] 3）对于每个命名消费者，用指针记录消费位置。
+- [x] 2、去掉内存Queue，设计自定义Queue，实现消息确认和消费offset
+  - [x] 1）自定义内存Message数组模拟Queue。
+  - [x] 2）使用指针记录当前消息写入位置。
+  - [x] 3）对于每个命名消费者，用指针记录消费位置。
 
 ### 第三个版本：基于 SpringMVC 实现 MQServer
 - [ ] 3、拆分broker和client(包括producer和consumer)
